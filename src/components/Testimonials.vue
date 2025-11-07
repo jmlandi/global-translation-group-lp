@@ -1,17 +1,17 @@
 <template>
-  <section class="py-16 md:py-24 bg-gradient-to-br from-support to-white">
+  <section id="testimonials" class="py-16 md:py-24 bg-gradient-to-br from-support to-white">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-6xl mx-auto">
-        <h2 class="font-title text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-4">
+        <h2 class="font-title text-3xl md:text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-4" data-aos="fade-up">
           Here's What Our Clients Have To Say About Us…
         </h2>
-        <p class="text-center text-gray-600 text-lg mb-12 md:mb-16">
+        <p class="text-center text-gray-600 text-lg mb-12 md:mb-16" data-aos="fade-up" data-aos-delay="100">
           Don't just take our word for it — hear from businesses we've helped grow globally.
         </p>
         
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <!-- Testimonial Card 1 -->
-          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300">
+          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
             <div class="flex items-center mb-4">
               <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
                 JD
@@ -32,7 +32,7 @@
           </div>
           
           <!-- Testimonial Card 2 -->
-          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300">
+          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
             <div class="flex items-center mb-4">
               <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
                 SM
@@ -53,7 +53,7 @@
           </div>
           
           <!-- Testimonial Card 3 -->
-          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300">
+          <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
             <div class="flex items-center mb-4">
               <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
                 RK

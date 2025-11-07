@@ -1,5 +1,8 @@
 <template>
   <div class="landing-page">
+    <!-- Navbar -->
+    <Navbar />
+    
     <!-- Hero Section with Form -->
     <HeroSection />
     
@@ -12,7 +15,7 @@
     <!-- Final CTA Section -->
     <section class="py-16 md:py-24 bg-gradient-to-r from-primary to-accent">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="max-w-4xl mx-auto text-center" data-aos="zoom-in">
           <h2 class="font-title text-3xl md:text-4xl lg:text-5xl font-black text-white mb-6">
             Ready to Transform Your Global Business?
           </h2>
@@ -38,10 +41,24 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+import Navbar from '../components/Navbar.vue'
 import HeroSection from '../components/HeroSection.vue'
 import ConsultationDetails from '../components/ConsultationDetails.vue'
 import Testimonials from '../components/Testimonials.vue'
 import Footer from '../components/Footer.vue'
+
+onMounted(() => {
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out',
+    once: true,
+    offset: 100
+  })
+})
 </script>
 
 <style scoped>

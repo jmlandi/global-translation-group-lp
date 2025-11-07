@@ -5,11 +5,14 @@ A modern, responsive landing page built with **Vue 3** and **Tailwind CSS** for 
 ## 🚀 Features
 
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with custom color scheme
+- **Modern UI**: Clean, professional design with custom color scheme and real images
+- **Scroll Animations**: Smooth AOS (Animate On Scroll) animations for engaging user experience
+- **Sticky Navigation**: Fixed navbar with logo and quick links
 - **Lead Capture Form**: Complete form with validation and API integration structure
 - **Component-Based Architecture**: Reusable Vue 3 components using Composition API
 - **Smooth Navigation**: Vue Router with smooth scroll behavior
 - **Thank You Page**: Post-submission confirmation page with social media integration
+- **Professional Images**: Integrated brand images throughout the landing page
 
 ## 🎨 Design System
 
@@ -28,19 +31,25 @@ A modern, responsive landing page built with **Vue 3** and **Tailwind CSS** for 
 
 ```
 global-translation-group-lp/
+├── public/
+│   └── images/
+│       ├── logo.png
+│       ├── positive-curly-female-blogger-...jpg
+│       └── happy-male-writing-positive-mail-client.jpg
 ├── src/
 │   ├── components/
-│   │   ├── HeroSection.vue           # Hero with headline and form
-│   │   ├── ConsultationDetails.vue   # Value proposition highlights
-│   │   ├── Testimonials.vue          # Client testimonials
-│   │   ├── LeadForm.vue              # Lead capture form component
-│   │   └── Footer.vue                # Footer with contact info
+│   │   ├── Navbar.vue                    # Sticky navigation with logo
+│   │   ├── HeroSection.vue               # Hero with headline, image, and form
+│   │   ├── ConsultationDetails.vue       # Value propositions with image
+│   │   ├── Testimonials.vue              # Client testimonials
+│   │   ├── LeadForm.vue                  # Lead capture form component
+│   │   └── Footer.vue                    # Footer with logo and contact info
 │   ├── pages/
-│   │   ├── LandingPage.vue           # Main landing page
-│   │   └── ThankYou.vue              # Post-submission page
-│   ├── App.vue                       # Root component
-│   ├── main.js                       # Application entry point
-│   └── style.css                     # Global styles with Tailwind
+│   │   ├── LandingPage.vue               # Main landing page
+│   │   └── ThankYou.vue                  # Post-submission page
+│   ├── App.vue                           # Root component
+│   ├── main.js                           # Application entry point
+│   └── style.css                         # Global styles with Tailwind
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -53,6 +62,7 @@ global-translation-group-lp/
 - **Vue 3** - Progressive JavaScript framework
 - **Vue Router** - Official routing library
 - **Tailwind CSS** - Utility-first CSS framework
+- **AOS** - Animate On Scroll library for smooth animations
 - **Vite** - Next-generation frontend build tool
 
 ## 📋 Prerequisites
@@ -121,11 +131,12 @@ const response = await fetch('/api/lead', {
 
 ## 🎯 Landing Page Sections
 
-1. **Hero Section**: Eye-catching headline with embedded lead form
-2. **Consultation Details**: Three key value propositions with icons
-3. **Testimonials**: Social proof with placeholder client testimonials
-4. **Final CTA**: Compelling call-to-action linking back to form
-5. **Footer**: Contact information and LinkedIn link
+1. **Navbar**: Sticky navigation with logo and CTA button
+2. **Hero Section**: Eye-catching headline with professional image and embedded lead form
+3. **Consultation Details**: Three key value propositions with icons and supporting image
+4. **Testimonials**: Social proof with placeholder client testimonials and star ratings
+5. **Final CTA**: Compelling call-to-action linking back to form
+6. **Footer**: Logo, contact information, and LinkedIn link
 
 ## 🔧 Customization
 

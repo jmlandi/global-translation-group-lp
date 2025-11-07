@@ -1,6 +1,6 @@
 <template>
   <div id="lead-form" class="w-full max-w-2xl mx-auto">
-    <form @submit.prevent="handleSubmit" class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+    <form @submit.prevent="handleSubmit" class="bg-white rounded-2xl shadow-xl p-6 md:p-8 border-2 border-gray-100">
       <h3 class="font-title text-2xl font-bold mb-6 text-center text-gray-900">
         Fill in this form to claim your FREE audit and 30-minute consultation
       </h3>

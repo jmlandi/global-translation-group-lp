@@ -3,11 +3,13 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-6xl mx-auto">
         <div class="grid gap-8 md:grid-cols-3">
-          <!-- Company Info -->
+          <!-- Company Info with Logo -->
           <div>
-            <h3 class="font-title text-2xl font-bold mb-4 text-primary">
-              Global Translation Group
-            </h3>
+            <img 
+              src="/images/logo.png" 
+              alt="Global Translation Group Logo" 
+              class="h-12 w-auto mb-4 brightness-0 invert"
+            />
             <p class="text-gray-300 leading-relaxed">
               Your trusted partner for translation and localisation services, helping businesses succeed in the global marketplace.
             </p>
@@ -23,13 +25,13 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-300 hover:text-primary transition-colors">
+                <a href="#services" class="text-gray-300 hover:text-primary transition-colors">
                   Our Services
                 </a>
               </li>
               <li>
-                <a href="#" class="text-gray-300 hover:text-primary transition-colors">
-                  About Us
+                <a href="#testimonials" class="text-gray-300 hover:text-primary transition-colors">
+                  Testimonials
                 </a>
               </li>
             </ul>

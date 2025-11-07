@@ -3,7 +3,7 @@
     <div class="max-w-3xl w-full">
       <!-- Success Icon -->
       <div class="text-center mb-8">
-        <div class="inline-block w-24 h-24 bg-primary rounded-full flex items-center justify-center shadow-2xl animate-bounce-slow">
+        <div class="w-24 h-24 mx-auto bg-primary rounded-full flex items-center justify-center shadow-2xl animate-bounce-slow">
           <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
           </svg>
