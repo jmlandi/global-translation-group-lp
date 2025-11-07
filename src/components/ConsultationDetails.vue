@@ -11,7 +11,7 @@
           <!-- Image Section -->
           <div data-aos="fade-right">
             <img 
-              src="/images/happy-male-writing-positive-mail-client.jpg" 
+              src="/images/consultant-image.webp" 
               alt="Professional consultant providing expert guidance" 
               class="w-full h-[400px] object-cover rounded-2xl shadow-xl"
             />

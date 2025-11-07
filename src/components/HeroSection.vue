@@ -32,7 +32,7 @@
             <!-- Mobile Image (shown on small screens) -->
             <div class="lg:hidden mb-8">
               <img 
-                src="/images/positive-curly-female-blogger-sends-mails-messages-via-smartphone-installs-new-application-smiles-broadly.jpg" 
+                src="/images/hero-image.webp" 
                 alt="Happy business professional using smartphone" 
                 class="w-full h-[300px] sm:h-[400px] object-cover rounded-2xl shadow-xl"
               />
@@ -58,7 +58,7 @@
           <!-- Right Column - Hero Image (desktop only) -->
           <div class="order-1 lg:order-2 hidden lg:block" data-aos="fade-left">
             <img 
-              src="/images/positive-curly-female-blogger-sends-mails-messages-via-smartphone-installs-new-application-smiles-broadly.jpg" 
+              src="/images/hero-image.webp" 
               alt="Happy business professional using smartphone" 
               class="w-full h-[500px] xl:h-[600px] object-cover rounded-2xl shadow-2xl"
             />

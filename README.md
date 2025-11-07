@@ -34,8 +34,8 @@ global-translation-group-lp/
 ├── public/
 │   └── images/
 │       ├── logo.png
-│       ├── positive-curly-female-blogger-...jpg
-│       └── happy-male-writing-positive-mail-client.jpg
+│       ├── positive-curly-female-blogger-..webp
+│       └── happy-male-writing-positive-mail-client.webp
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.vue                    # Sticky navigation with logo
